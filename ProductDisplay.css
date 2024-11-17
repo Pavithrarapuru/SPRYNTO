@@ -1,0 +1,450 @@
+.productdisplay {
+    display: flex;
+    margin: 0px 170px;
+
+}
+
+.left {
+    display: flex;
+    gap: 17px;
+}
+
+.img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.right {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right h1 {
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.right-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.right-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.prices {
+
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.price-old {
+    color: #818181;
+    text-decoration: line-through;
+
+}
+
+.price-new {
+    color: #ff4141;
+}
+
+.size h1 {
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sizes {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.sizes div {
+    padding: 8px 20px;
+    background: #fbfbfb;
+    border: solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.z {
+    display: flex;
+    gap: 20px;
+}
+
+.right button {
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img-list img {
+    height: 90px;
+}
+
+.main-img {
+    width: auto;
+    height: 400px;
+}
+
+.right-category {
+    display: none;
+}
+
+@media(max-width:1280px) {
+    .productdisplay {
+        margin: 0px 60px;
+
+    }
+
+    .left {
+        gap: 10px;
+    }
+
+    .img-list {
+        gap: 10px;
+    }
+
+    .img-list img {
+        height: 85px;
+    }
+
+    .main-img {
+        width: auto;
+        height: 390px;
+    }
+
+    .right {
+        margin: 0px 30px;
+    }
+
+    .right h1 {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .right-stars {
+        gap: 3px;
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .prices {
+        margin: 10px 0px;
+        font-size: 18px;
+        margin-bottom: 20px;
+
+    }
+
+    .right-description {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .size h1 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .sizes div {
+        position: relative;
+        top: 30px;
+        padding: 14px 20px;
+        margin-bottom: 70px;
+    }
+
+    .right button {
+        width: 200px;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+
+
+    }
+
+}
+
+@media(max-width:1025px) {
+    .productdisplay {
+        margin: 0px 30px;
+
+    }
+
+    .left {
+        gap: 5px;
+    }
+
+    /* .img-list {
+        gap: 10px;
+    } */
+
+    .img-list img {
+        height: 75px;
+    }
+
+    .main-img {
+        /* width: auto; */
+        height: 350px;
+    }
+
+    /* .right {
+        margin: 0px 30px;
+    } */
+
+    .right h1 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .right-stars img {
+        height: 15px;
+
+    }
+
+    .prices {
+        margin: 10px 0px;
+        font-size: 18px;
+        margin-bottom: 20px;
+
+    }
+
+    .right-description {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .size h1 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .sizes {
+        margin: 10px 12px;
+    }
+
+    .sizes div {
+        /* position: relative;
+        top: 30px; */
+        padding: 10px 16px;
+        /* margin-bottom: 70px; */
+    }
+
+    .right button {
+        width: 200px;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .productdisplay {
+        margin: 0px 20px;
+
+
+    }
+
+    .left {
+        gap: 0px;
+
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+
+
+    .img-list {
+        flex-direction: row;
+    }
+
+    .img-list img {
+        height: 91px;
+
+
+    }
+
+
+    .main-img {
+        /* width: auto; */
+        height: 380px;
+    }
+
+    /* .right {
+        margin: 0px 30px;
+    } */
+
+    .right h1 {
+        margin-bottom: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .right-stars img {
+        height: 12px;
+
+
+    }
+
+    .price-old,
+    .price-new {
+        margin-bottom: 20px;
+    }
+
+    .prices {
+        margin: 10px 0px;
+        font-size: 18px;
+
+
+    }
+
+    .right-description {
+        font-size: 13px;
+        margin-bottom: 0px;
+
+    }
+
+    .size h1 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .sizes {
+        margin: 10px 12px;
+    }
+
+    .sizes div {
+        /* position: relative;
+        top: 30px; */
+        padding: 8px 12px;
+        /* margin-bottom: 70px; */
+    }
+
+    .right button {
+        width: 200px;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .productdisplay {
+
+        flex-direction: column;
+
+    }
+
+    .left {
+        gap: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+
+
+    .img-list {
+        flex-direction: row;
+    }
+
+    .img-list img {
+        height: 50px;
+        gap: 10px;
+
+
+    }
+
+
+    .main-img {
+        /* width: auto; */
+        height: 230px;
+    }
+
+    /* .right {
+        margin: 0px 30px;
+    } */
+
+    .right h1 {
+        margin-bottom: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+
+
+    }
+
+
+
+    .right-stars img {
+        height: 12px;
+
+
+    }
+
+
+    .prices {
+        margin: 10px 0px;
+        font-size: 18px;
+
+
+    }
+
+    .right-description {
+        font-size: 13px;
+
+
+    }
+
+    .size h1 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .sizes {
+        margin: 10px 12px;
+    }
+
+    .sizes div {
+        position: relative;
+        right: 10px;
+        padding: 8px 12px;
+        gap: 0px;
+
+        /* margin-bottom: 70px; */
+    }
+
+    .right button {
+        width: 200px;
+        padding: 15px 20px;
+
+    }
+
+}

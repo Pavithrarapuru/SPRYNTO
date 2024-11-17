@@ -1,0 +1,59 @@
+.related {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.related h1 {
+    color: #515151;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.related hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #4c4c4c;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.relateditem {
+    display: flex;
+
+}
+
+
+
+@media(max-width:800px) {
+    .related h1 {
+        font-size: 38px;
+    }
+
+    .related hr {
+        height: 2px;
+    }
+
+    .related img {
+        height: 350px;
+    }
+}
+
+@media(max-width:500px) {
+    .related h1 {
+        font-size: 34px;
+    }
+
+    .related hr {
+        height: 2px;
+    }
+
+    .related img {
+        height: 300px;
+    }
+}

@@ -1,0 +1,87 @@
+/* OrderSuccessPage.css */
+.order-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading-screen {
+    text-align: center;
+}
+
+.ellipsis {
+    animation: ellipsis-animation 1s infinite;
+}
+
+@keyframes ellipsis-animation {
+    0% {
+        content: ".";
+    }
+
+    55% {
+        content: "....";
+    }
+
+    88% {
+        content: "......";
+    }
+}
+
+.success-message {
+    text-align: center;
+    /* Add your styles for the success message here */
+}
+
+/* OrderSuccessPage.css */
+.order-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success-message {
+    text-align: center;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+.success-message h2 {
+    font-size: 32px;
+    color: #00cc99;
+    /* or any pleasant color you prefer */
+}
+
+.success-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.success-message a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00cc99;
+    /* or any pleasant color you prefer */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.success-message a:hover {
+    background-color: #008055;
+    /* slightly darker shade for hover effect */
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

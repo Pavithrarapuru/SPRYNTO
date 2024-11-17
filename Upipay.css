@@ -1,0 +1,71 @@
+.upipay {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(43, 43, 43); */
+    border-radius: 10px;
+    background: #f1f1f1;
+    padding: 10px;
+
+
+}
+
+.upipay hr {
+    border: 3px solid rgb(63, 63, 63);
+    width: 160px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.upipay img {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.upipay h1 {
+    color: rgb(66, 66, 66);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+
+
+}
+
+.upipay h3 span {
+    font-weight: 800;
+    color: rgb(62, 187, 62);
+    font-size: 22px;
+    margin: 5px;
+}
+
+.upipay h3 {
+    color: #515050;
+    font-size: 16px;
+
+
+}
+
+.upload {
+    height: 50px;
+
+}
+
+.upipay button {
+    margin: 40px 0px;
+    background: rgb(62, 187, 62);
+    padding: 20px 30px;
+    border: none;
+    color: #f4f4f4;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#upld {
+    height: 150px;
+}
